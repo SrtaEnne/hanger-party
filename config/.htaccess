@@ -1,0 +1,4 @@
+Options All -Indexes
+<Files ".env">  
+  Require all denied
+</Files>

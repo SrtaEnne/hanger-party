@@ -1,0 +1,83 @@
+/* image background */
+body{
+    background: url('../img/bg-tijolos.jpg') center;
+    background-size: cover;
+}
+#img-cabide-party{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* pulse effect */
+ @keyframes fa-blink {
+     20% { filter: contrast(90%) brightness(85%); }
+     50% { filter: contrast(90%) brightness(85%); }
+     100% { filter: none; }
+ }
+
+.fa-blink {
+   -webkit-animation: fa-blink .95s ease-in-out infinite;
+   -moz-animation: fa-blink .95s ease-in-out infinite;
+   -ms-animation: fa-blink .95s ease-in-out infinite;
+   -o-animation: fa-blink .95s ease-in-out infinite;
+   animation: fa-blink .95s ease-in-out infinite;
+}
+
+
+/* label color */
+.input-field label {
+    color: white !important;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus{
+    color: white !important;
+}
+/* label underline focus color for email */
+.input-field input[type=email]:focus{
+    color: white !important;
+}
+
+/* label focus color */
+ .input-field input:focus + label{
+   color: white !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus{
+   border-bottom: 1px solid white !important;
+   box-shadow: 0 1px 0 0 white !important
+ }
+
+/* label underline focus color */
+.input-field input[type=text]:focus{
+	border-bottom: 1px solid white !important;
+	box-shadow: 0 1px 0 0 white !important;
+}
+/* valid color */
+.input-field input[type=text].valid{
+	border-bottom: 1px solid white !important;
+	box-shadow: 0 1px 0 0 white !important;
+	color: white !important;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active{
+	color: white !important;
+}
+
+/* color for icon fixed and position */
+#icon{
+    color: white !important; 
+    margin-top: 5%;
+}
+
+/* font size letter code */
+#letters{
+    font-size: 120%;
+}
+
+#btn-submit{
+    color: black;
+    left: 75%;
+    margin-top: 5%;
+}
