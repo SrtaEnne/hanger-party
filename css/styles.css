@@ -76,8 +76,15 @@ body{
     font-size: 120%;
 }
 
-#btn-submit{
-    color: black;
-    left: 75%;
-    margin-top: 5%;
+#input-button-submit{
+  top: 50% !important;
+  left: 30%;
+}
+
+/* table */
+#table-cronograma{
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
 }

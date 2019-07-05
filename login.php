@@ -1,16 +1,6 @@
 <?php
-// session_start();
 
    include_once "verificacao.php";
-
-    // if ($_SESSION['logged_pass']){
-    //     $_SESSION['msg'] = "";
-    //     header("Location: cronograma.php");
-    // }
-    // else{
-       // echo $_SERVER['REQUEST_METHOD'];
-       
-    // }
    //senha = do20fes19cab
 ?>
 
@@ -19,7 +9,7 @@
     <head>
         <title>Festa do Cabide</title>
         
-        <link rel="shortcut icon" href="img/favicon.ico" />
+        <link rel="shortcut icon" href="favicon/favicon.ico" />
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/materialize.css" rel="stylesheet">
         <link href="css/materialize.min.css" rel="stylesheet">
@@ -34,7 +24,7 @@
                     <i class="material-icons prefix">vpn_key</i>
                     <input id="icon_prefix" type="password" class="validate" name="pass">
                     <label for="icon_prefix" id="letters">Enter your code</label>
-                        <input class="btn btn-info btn-sm" id="btn-submit" type="submit" name="btn_submit" value="Enviar"></input>
+                        <input id="input-button-submit" class="waves-effect waves-light yellow btn" type="submit" name="btn_submit"><i class="material-icons right">send</i></input>
                     </div>
                 </div>
             </form>

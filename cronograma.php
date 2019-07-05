@@ -1,13 +1,6 @@
 <?php
-// session_start();
      
-     include_once "verificacao.php";
-
-  // if(!($_SESSION['logged_pass'])){
-  //   header("Location: login.php");
-  //   $_SESSION['msg'] = "";
-  // }  
-
+  include_once "verificacao.php";  
   
 ?>
 
@@ -22,52 +15,35 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
-        <h1>CRONOGRAMA</h1>
-        <a href="logout.php">Logout</a>
+      <img src="img/itens.png" id="img-cabide-party" class="fa fa-comments fa-blink">        
+      <a href="logout.php">Logout</a>
 
+        <table class="highlight centered" id="table-cronograma">
+        <thead>
+          <tr>
+              <th>Nome</th>
+              <th>Nome do item</th>
+              <th>Preço</th>
+          </tr>
+        </thead>
 
-
-
-        <form action="#">
-    <p>
-      <label>
-        <input type="checkbox" />
-        <span>Red</span>
-      </label>
-    </p>
-    <p>
-      <label>
-        <input type="checkbox" checked="checked" />
-        <span>Yellow</span>
-      </label>
-    </p>
-    <p>
-      <label>
-        <input type="checkbox" class="filled-in" checked="checked" />
-        <span>Filled in</span>
-      </label>
-    </p>
-    <p>
-      <label>
-        <input id="indeterminate-checkbox" type="checkbox" />
-        <span>Indeterminate Style</span>
-      </label>
-    </p>
-    <p>
-      <label>
-        <input type="checkbox" checked="checked" disabled="disabled" />
-        <span>Green</span>
-      </label>
-    </p>
-    <p>
-      <label>
-        <input type="checkbox" disabled="disabled" />
-        <span>Brown</span>
-      </label>
-    </p>
-  </form>
-        
-
-        
+        <tbody>
+          <tr>
+            <td>Nátaly</td>
+            <td>Devassa</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
     </body>
 </html>
