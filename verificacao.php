@@ -10,7 +10,7 @@ session_start();
 
 		if (md5($password) == $_ENV['MD5_C']) {
 			$_SESSION['logged_pass'] = true;
-			header("Location: cronograma.php");
+			header("Location: itens.php");
 		//echo "entrou";
 		}
 		else{
@@ -46,7 +46,7 @@ session_start();
 	// 		header("Location: index.php");
 	// 	}
 	// 	else{
-	// 		header("Location: cronograma.php");
+	// 		header("Location: itens.php");
 	// 	}
 	// }
 	// else{
@@ -65,7 +65,7 @@ session_start();
 	// 			header("Location: login.php");
 	// 		}
 	// 		else{
-	// 			header("Location: cronograma.php");
+	// 			header("Location: itens.php");
 	// 		}
 	// 	}
 	// 	else{

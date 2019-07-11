@@ -16,7 +16,6 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>   
-
         <img src="img/cabide-party.png" id="img-cabide-party" class="fa fa-comments fa-blink">
         <div class="row">
             <form action="verificacao.php" method="POST">

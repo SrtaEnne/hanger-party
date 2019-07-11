@@ -15,9 +15,10 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
-      <img src="img/itens.png" id="img-cabide-party" class="fa fa-comments fa-blink">        
-      <a href="logout.php">Logout</a>
-
+      <header>
+        <img src="img/itens.png" id="img-cabide-party" class="fa fa-comments fa-blink">        
+      </header>
+      <main>
         <table class="highlight centered" id="table-cronograma">
         <thead>
           <tr>
@@ -45,5 +46,8 @@
           </tr>
         </tbody>
       </table>
-    </body>
+  
+      <!-- <a id="btn-logout" class="btn white waves-effect" href="logout.php">Logout</a> -->        
+            
+  </body>
 </html>

@@ -88,3 +88,9 @@ body{
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+#btn-logout{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
